@@ -83,7 +83,7 @@ fn lookup(word: &str, tx: Sender<()>) -> Result<(), Box<Error>> {
 }
 
 fn main() {
-  let args: ArgMatches = clap_app!(app =>
+  let args: ArgMatches = clap_app!(vocab =>
     (version: "0.1.0")
     (author: "Martin <mycha0@hotmail.com>")
     (about: "Lookup word definition from vocabulary.com")
